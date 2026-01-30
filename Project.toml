@@ -1,7 +1,7 @@
 name = "TulipaEnergyModel"
 uuid = "5d7bd171-d18e-45a5-9111-f1f11ac5d04d"
-authors = ["Abel Soares Siqueira <abel.s.siqueira@gmail.com>", "Diego A. Tejada-Arango <diego.tejadaarango@tno.nl>", "Germán Morales-España <german.morales@tno.nl>", "Grigory Neustroev <G.Neustroev@tudelft.nl>", "Juha Kiviluoma <Juha.Kiviluoma@vtt.fi>", "Lauren Clisby <lauren.clisby@tno.nl>", "Maaike Elgersma <m.b.elgersma@tudelft.nl>", "Ni Wang <ni.wang@tno.nl>", "Suvayu Ali <s.ali@esciencecenter.nl>", "Zhi Gao <z.gao1@uu.nl>"]
 version = "0.10.2"
+authors = ["Abel Soares Siqueira <abel.s.siqueira@gmail.com>", "Diego A. Tejada-Arango <diego.tejadaarango@tno.nl>", "Germán Morales-España <german.morales@tno.nl>", "Grigory Neustroev <G.Neustroev@tudelft.nl>", "Juha Kiviluoma <Juha.Kiviluoma@vtt.fi>", "Lauren Clisby <lauren.clisby@tno.nl>", "Maaike Elgersma <m.b.elgersma@tudelft.nl>", "Ni Wang <ni.wang@tno.nl>", "Suvayu Ali <s.ali@esciencecenter.nl>", "Zhi Gao <z.gao1@uu.nl>"]
 
 [deps]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
@@ -24,13 +24,13 @@ TulipaIO = "7b3808b7-0819-42d4-885c-978ba173db11"
 [compat]
 CSV = "0.10"
 DataFrames = "1"
-DuckDB = "0.10, ~1.0" # ~1.0 until they fix https://github.com/duckdb/duckdb/issues/13911
-DuckDB_jll = "0.10, ~1.0" # DuckDB 1.0.0 still allows DuckDB_jll 1.1.0
+DuckDB = "0.10, ~1.0"
+DuckDB_jll = "0.10, ~1.0"
 Graphs = "1.8"
 HiGHS = "1"
 JuMP = "1"
 MathOptInterface = "1"
-MetaGraphsNext = "0.6, 0.7"
+MetaGraphsNext = "0.6, 0.7, 0.8"
 OrderedCollections = "1"
 SparseArrays = "1"
 Statistics = "1"
